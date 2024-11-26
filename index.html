@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="img/logo_colegio_lindaura-nobg.png" type="image/x-icon">
     <title>Col. Est. Profª Lindaura Ribeiro Lucas</title>
 </head>
 
@@ -13,68 +14,157 @@
     <header>
         <div class="header__top">
             <div class="header__top-container">
-                <div class="header__logo"><a href="index.html"><img src="img/logo_colegio_lindaura.png"
-                            alt="Logo do colégio"></a></div>
-                <h1 class="header__title">Colégio Estadual Professora Lindaura Ribeiro Lucas</h1>
+                <div>
+                    <div class="header__logo"><a href="index.html"><img src="img/logo_colegio_lindaura-nobg.png"
+                                alt="Logo do colégio"></a></div>
+                    <h1 class="header__title">Colégio Estadual Professora Lindaura Ribeiro Lucas</h1>
+                </div>
+                <div class="header__social-medias-container">
+                    <ul class="social-medias-list">
+                        <li class="social-medias-list__item"><a target="_blank" href=""><img
+                                    src="img/icone-whatsapp.png" alt="Ícone WhatsApp"></a></li>
+                        <li class="social-medias-list__item"><a target="_blank" href=""><img
+                                    src="img/icone-facebook.png" alt="Ícone WhatsApp"></a></li>
+                        <li class="social-medias-list__item"><a target="_blank" href=""><img
+                                    src="img/icone-linkedin.png" alt="Ícone WhatsApp"></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <nav class="header__navigation">
-            <ul class="header__navigation-container">
-                <li class="links-list__item">
-                    <a href="#inicio">Início</a>
-                </li>
-                <li class="links-list__item">
-                    <a href="#section-02">Parcerias</a>
-                </li>
-                <li class="links-list__item">
-                    <a href="#section-03">Nossos profissionais</a>
-                </li>
-                <li class="links-list__item">
-                    <a href="#section-04">Contato</a>
-                </li>
-            </ul>
+            <div class="header__navigation-container">
+                <ul class="navigation__links-list">
+                    <li class="links-list__item">
+                        <a href="#inicio">Início</a>
+                    </li>
+                    <li class="links-list__item">
+                        <a href="#localizacao">Nossa localização</a>
+                    </li>
+                    <li class="links-list__item">
+                        <a href="#estrutura">Nossa estrutura</a>
+                    </li>
+                    <li class="links-list__item">
+                        <a href="#profissionais">Nossos profissionais</a>
+                    </li>
+                    <li class="links-list__item">
+                        <a href="#section-05">Seção 05</a>
+                    </li>
+                </ul>
+                <a class="area-do-aluno-link" target="_blank" href="https://www.areadoaluno.seed.pr.gov.br/"><img
+                        src="img/logo-area-do-aluno.png" alt=""></a>
+            </div>
         </nav>
     </header>
     <main>
-        <section id="inicio" class="banner">
-            <div class="banner__container section__container">
-                <img class="banner__image" src="img/imagem-banner.png" alt="">
+        <section id="inicio" class="main__banner main__section">
+            <div class="main__banner-container section__container">
+                <img class="banner__image active" src="img/imagem-banner.png" alt="">
+                <img class="banner__image" src="img/quadra.jpg" alt="">
+                <img class="banner__image" src="img/laboratorio-informatica.jpg" alt="">
             </div>
         </section>
-        <section id="section-02">
-            <h2>Secao 02</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, atque exercitationem vitae
-                laudantium voluptate excepturi, aliquid ratione minima, iste officia unde asperiores veritatis beatae
-                necessitatibus ducimus mollitia alias repellat rerum error libero delectus quae facilis. A, odit ex!
-                Impedit, reprehenderit temporibus assumenda molestias, optio mollitia nulla dicta explicabo veritatis
-                quasi cupiditate maxime nostrum officia eos quisquam perspiciatis laboriosam odio nesciunt error
-                corporis dolorem dolorum asperiores rem. Error, odio porro quibusdam aperiam cupiditate cumque aliquid
-                doloremque quam corporis itaque! Asperiores laudantium porro id vero cum odio praesentium exercitationem
-                neque provident aut explicabo, eveniet iusto, fugiat aliquam fuga temporibus soluta corporis illum!</p>
+        <section id="localizacao" class="main__location main__section">
+            <div class="main__location-container section__container">
+                <iframe class="location__map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.1049115283727!2d-49.17483812583182!3d-25.50154743572411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcf0fa63f5dcdf%3A0xabffc9b368410955!2sLindaura%20R%20Lucas%2C%20C%20E%20Prof-Ef%20M!5e0!3m2!1spt-BR!2sbr!4v1732586484926!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="location__content">
+                    <p class="adress">Rua Octávio Cim, 2201 - Parque da Fonte, São José dos Pinhais - PR, 83050-520</p>
+                    <div>
+                        <p class="teaching-category">Ensino Fundamental II</p>
+                        <p class="teaching-category">Ensino Médio</p>
+                        <p class="phone">(41) 3382-5641</p>
+                        <p class="phone">(41) 3282-0899</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="section-03">
-            <h2>Secao 03</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, atque exercitationem vitae
-                laudantium voluptate excepturi, aliquid ratione minima, iste officia unde asperiores veritatis beatae
-                necessitatibus ducimus mollitia alias repellat rerum error libero delectus quae facilis. A, odit ex!
-                Impedit, reprehenderit temporibus assumenda molestias, optio mollitia nulla dicta explicabo veritatis
-                quasi cupiditate maxime nostrum officia eos quisquam perspiciatis laboriosam odio nesciunt error
-                corporis dolorem dolorum asperiores rem. Error, odio porro quibusdam aperiam cupiditate cumque aliquid
-                doloremque quam corporis itaque! Asperiores laudantium porro id vero cum odio praesentium exercitationem
-                neque provident aut explicabo, eveniet iusto, fugiat aliquam fuga temporibus soluta corporis illum!</p>
+        <section id="estrutura" class="main__structure main__section">
+            <div class="main__structure-container section__container">
+                <h2>Nossa estrutura</h2>
+                <ul class="structure__areas-list">
+                    <li class="areas-list__item active">Quadras</li>
+                    <li class="areas-list__item">Laboratório de informática</li>
+                    <li class="areas-list__item">Laboratório de ciências</li>
+                    <li class="areas-list__item">Biblioteca</li>
+                    <li class="areas-list__item">Área 05</li>
+                    <li class="areas-list__item">Área 06</li>
+                    <li class="areas-list__item">Área 07</li>
+                    <li class="areas-list__item">Área 08</li>
+                    <li class="areas-list__item">Área 09</li>
+                </ul>
+                <div class="structure__area-image">
+                    <img class="active" src="img/quadra.jpg" alt="">
+                    <img src="img/quadra.jpg" alt="">
+                    <img src="img/quadra.jpg" alt="">
+                    <img src="img/quadra.jpg" alt="">
+                    <img src="img/quadra.jpg" alt="">
+                    <img src="img/quadra.jpg" alt="">
+                    <img src="img/quadra.jpg" alt="">
+                    <img src="img/quadra.jpg" alt="">
+                    <img src="img/quadra.jpg" alt="">
+                </div>
+            </div>
         </section>
-        <section id="section-04">
-            <h2>Secao 04</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, atque exercitationem vitae
-                laudantium voluptate excepturi, aliquid ratione minima, iste officia unde asperiores veritatis beatae
-                necessitatibus ducimus mollitia alias repellat rerum error libero delectus quae facilis. A, odit ex!
-                Impedit, reprehenderit temporibus assumenda molestias, optio mollitia nulla dicta explicabo veritatis
-                quasi cupiditate maxime nostrum officia eos quisquam perspiciatis laboriosam odio nesciunt error
-                corporis dolorem dolorum asperiores rem. Error, odio porro quibusdam aperiam cupiditate cumque aliquid
-                doloremque quam corporis itaque! Asperiores laudantium porro id vero cum odio praesentium exercitationem
-                neque provident aut explicabo, eveniet iusto, fugiat aliquam fuga temporibus soluta corporis illum!</p>
+        <section id="profissionais" class="main__professionals main__section">
+            <div class="main__professionals-container section__container">
+                <h2>Nossos profissionais</h2>
+                <ul class="professionals__persons-list">
+                    <li class="persons-list__item">
+                        <img class="professionals__person-image" src="img/professor.png" alt="">
+                        <p>Juliano Emerson de Morais</p>
+                        <p>Professor de Ciências da Computação e Análise e Projeto de Sistemas</p>
+                    </li>
+                    <li class="persons-list__item">
+                        <img class="professionals__person-image" src="img/professor.png" alt="">
+                        <p>Juliano Emerson de Morais</p>
+                        <p>Professor de Ciências da Computação e Análise e Projeto de Sistemas</p>
+                    </li>
+                    <li class="persons-list__item">
+                        <img class="professionals__person-image" src="img/professor.png" alt="">
+                        <p>Juliano Emerson de Morais</p>
+                        <p>Professor de Ciências da Computação e Análise e Projeto de Sistemas</p>
+                    </li>
+                    <li class="persons-list__item">
+                        <img class="professionals__person-image" src="img/professor.png" alt="">
+                        <p>Juliano Emerson de Morais</p>
+                        <p>Professor de Ciências da Computação e Análise e Projeto de Sistemas</p>
+                    </li>
+                    <li class="persons-list__item">
+                        <img class="professionals__person-image" src="img/professor.png" alt="">
+                        <p>Juliano Emerson de Morais</p>
+                        <p>Professor de Ciências da Computação e Análise e Projeto de Sistemas</p>
+                    </li>
+                    <li class="persons-list__item">
+                        <img class="professionals__person-image" src="img/professor.png" alt="">
+                        <p>Juliano Emerson de Morais</p>
+                        <p>Professor de Ciências da Computação e Análise e Projeto de Sistemas</p>
+                    </li>
+                    <li class="persons-list__item">
+                        <img class="professionals__person-image" src="img/professor.png" alt="">
+                        <p>Juliano Emerson de Morais</p>
+                        <p>Professor de Ciências da Computação e Análise e Projeto de Sistemas</p>
+                    </li>
+                    <li class="persons-list__item">
+                        <img class="professionals__person-image" src="img/professor.png" alt="">
+                        <p>Juliano Emerson de Morais</p>
+                        <p>Professor de Ciências da Computação e Análise e Projeto de Sistemas</p>
+                    </li>
+                    <li class="persons-list__item">
+                        <img class="professionals__person-image" src="img/professor.png" alt="">
+                        <p>Juliano Emerson de Morais</p>
+                        <p>Professor de Ciências da Computação e Análise e Projeto de Sistemas</p>
+                    </li>
+                    <li class="persons-list__item">
+                        <img class="professionals__person-image" src="img/professor.png" alt="">
+                        <p>Juliano Emerson de Morais</p>
+                        <p>Professor de Ciências da Computação e Análise e Projeto de Sistemas</p>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section id="section-05">
+        <section id="section-05" class="main__section">
             <h2>Secao 05</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, atque exercitationem vitae
                 laudantium voluptate excepturi, aliquid ratione minima, iste officia unde asperiores veritatis beatae
