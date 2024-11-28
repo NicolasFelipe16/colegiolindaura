@@ -399,3 +399,73 @@ main{
 .persons-list__item:hover > .professionals__person-image{
     border-radius: 10px;
 }
+
+.main__news{
+    padding: 50px;
+}
+
+.news__news-list{
+    max-width: 1200px;
+    display: flex;
+    gap: 25px;
+    padding: 25px 0;
+    overflow-x: scroll;
+}
+
+.news-list__item{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.news-list__item:hover{
+    background-color: var(--cor-04-1);
+    color: var(--cor-02);
+}
+
+.news__image{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.news__content{
+    color: var(--cor-04-1);
+}
+
+.news-list__item:hover .news__content{
+    color: var(--cor-02);
+}
+
+.news__content .title{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news__content .subtitle{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.news__content .open-news{
+    background-color: var(--cor-04-1);
+    color: var(--cor-02);
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.news__content .open-news:hover{
+    background-color: var(--cor-04);
+}
+
+.news-list__item:hover .open-news{
+    background-color: var(--cor-02);
+    color: var(--cor-04-1);
+}
